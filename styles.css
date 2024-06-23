@@ -1,0 +1,78 @@
+/*body {*/
+/*    font-family: 'Calibri', Courier, monospace;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*.containers {*/
+/*    min-height: 450px;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.containers {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/* container for boxes */
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements {
+    width: 250px;
+    height: auto;
+}
+
+.options {
+    width: 250px;
+    height: 69px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+/* setAttribute for each box */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background-color: #1F2937;
+    margin: 24px;
+    border-radius: 24px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+
+}
+
+.resultStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 21px;
+    width: 210px;
+    height: 180px;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    background-color: #1F2937;
+    margin: 24px;
+    border-radius: 24px;
+}
