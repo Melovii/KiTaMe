@@ -10,17 +10,17 @@ let computerScore = 0;
 // scissors = kitsune //
 
 const fox = document.createElement("img");
-fox.src = "../images/fox.png";
+fox.src = "images/fox.png";
 fox.style.width = "250px";
 fox.style.height = "auto";
 
 const eye = document.createElement("img");
-eye.src = "../images/eye.png";
+eye.src = "images/eye.png";
 eye.style.width = "250px";
 eye.style.height = "auto";
 
 const raccoon = document.createElement("img");
-raccoon.src = "../images/raccoon.png";
+raccoon.src = "images/raccoon.png";
 raccoon.style.width = "250px";
 raccoon.style.height = "auto";
 
@@ -108,23 +108,23 @@ function playRound(playerChoice, computerChoice) {
     let winner = undefined;
     switch (playerChoice) {
         case "kitsune": {
-            playerIMG.src = '../images/fox.png';
+            playerIMG.src = 'images/fox.png';
             yourChoice.textContent = 'You Chose KITSUNE!';
             switch(computerChoice) {
                 case "kitsune": {
-                    pcIMG.src = '../images/fox.png';
+                    pcIMG.src = 'images/fox.png';
                     theirChoice.textContent = "The PC Chose KITSUNE!";
                     winner = 2;
                     break;
                 }
                 case "tanuki": {
-                    pcIMG.src = '../images/raccoon.png';
+                    pcIMG.src = 'images/raccoon.png';
                     theirChoice.textContent = "The PC Chose TANUKI!";
                     winner = 1;
                     break;
                 }
                 case "me": {
-                    pcIMG.src = '../images/eye.png';
+                    pcIMG.src = 'images/eye.png';
                     theirChoice.textContent = "The PC Chose ME!";
                     winner = 0;
                     break;
@@ -134,23 +134,23 @@ function playRound(playerChoice, computerChoice) {
         }
         break;
         case "tanuki": {
-            playerIMG.src = '../images/raccoon.png';
+            playerIMG.src = 'images/raccoon.png';
             yourChoice.textContent = 'You Chose TANUKI!';
             switch (computerChoice) {
                 case "kitsune": {
-                    pcIMG.src = '../images/fox.png'
+                    pcIMG.src = 'images/fox.png'
                     theirChoice.textContent = "The PC Chose KITSUNE!";
                     winner = 0;
                     break;
                 }
                 case "tanuki": {
-                    pcIMG.src = '../images/raccoon.png'
+                    pcIMG.src = 'images/raccoon.png'
                     theirChoice.textContent = "The PC Chose TANUKI!";
                     winner = 2;
                     break;
                 }
                 case "me": {
-                    pcIMG.src = '../images/eye.png'
+                    pcIMG.src = 'images/eye.png'
                     theirChoice.textContent = "The PC Chose ME!";
                     winner = 1;
                     break;
@@ -162,23 +162,23 @@ function playRound(playerChoice, computerChoice) {
         break;
         case "me":
         {
-            playerIMG.src = '../images/eye.png';
+            playerIMG.src = 'images/eye.png';
             yourChoice.textContent = 'You Chose ME!';
             switch(computerChoice) {
                 case "kitsune": {
-                    pcIMG.src = '../images/fox.png'
+                    pcIMG.src = 'images/fox.png'
                     theirChoice.textContent = "The PC Chose KITSUNE!";
                     winner = 1;
                     break;
                 }
                 case "tanuki": {
-                    pcIMG.src = '../images/raccoon.png'
+                    pcIMG.src = 'images/raccoon.png'
                     theirChoice.textContent = "The PC Chose TANUKI!";
                     winner = 0;
                     break;
                 }
                 case "me": {
-                    pcIMG.src = '../images/eye.png'
+                    pcIMG.src = 'images/eye.png'
                     theirChoice.textContent = "The PC Chose ME!";
                     winner = 2;
                     break;
